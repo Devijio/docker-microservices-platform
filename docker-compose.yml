@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  auth:
+    build: ./auth-service
+  user:
+    build: ./user-service
+  notification:
+    build: ./notification-service
